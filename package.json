@@ -1,0 +1,24 @@
+{
+  "name": "jsapp_aluno",
+  "version": "1.0.0",
+  "description": "Pipeline de CI com SonarCloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celsopires1999/jsapp_aluno.git"
+  },
+  "author": "Celso Pires",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celsopires1999/jsapp_aluno/issues"
+  },
+  "homepage": "https://github.com/celsopires1999/jsapp_aluno#readme",
+  "dependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^26.6.3",
+    "sonar-scanner": "^3.1.0"
+  }
+}
